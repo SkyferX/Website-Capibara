@@ -1,0 +1,146 @@
+body {
+    background-color: #D2B48C;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    text-align: center;
+    padding: 1px;
+    background-color: #68d16d;
+}
+
+nav {
+    background-color: #98DBC6;
+    overflow: hidden;
+}
+
+nav a {
+    color: black;
+    display: block;
+    padding: 14px 16px ;
+    text-decoration: none;
+    text-align: center;
+    float: left;
+}
+
+nav a:hover {
+    background-color: #80aa9d;
+    color: #f2f2f2;
+}
+
+main {
+    padding: 10px;
+}
+
+.contenedor {
+    display: flex;
+}
+
+.image {
+    width: 400px;
+    margin-right: 50px;
+    border-radius: 15px;
+}
+
+.image0 {
+    width: 400px;
+    border-radius: 15px;
+    margin-left: 50px;
+}
+
+ul {
+    padding-left: 750px;
+}
+
+.right {
+    width: 400px;
+    border-radius: 15px;
+}
+
+.left {
+    width: 350px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.text-h {
+    padding-top: 50px;
+}
+
+.ubicacion {
+    width: 250px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+.ubicacion1 {
+    width: 250px;
+    border-radius: 15px;
+}
+
+.ubicacion2 {
+    width: 680px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.ubicacion3 {
+    width: 300px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.ubicacion4 {
+    width: 200px;
+    border-radius: 15px;
+    margin-right: 20px;
+}
+
+.ubicacion5 {
+    width: 400px;
+    border-radius: 15px;
+    margin-left: 20px;
+}
+
+.gif {
+    width: 200px;
+    margin-right: 20px;
+    border-radius: 15px;
+}
+
+table, th, td {
+    border: 1px solid;
+    width: 50%;
+}
+
+.gallery {
+ margin-top: 30px;
+ margin-left: 100px;
+ margin-right: 100px;
+ display: inline-table;
+ justify-content: center;
+}
+  
+.gallery img {
+    width: 700px;
+    height: 500px;
+    margin: 5px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 15px;
+}
+
+.gallery:hover img {
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #228B22 ;
+    text-align: center;
+    padding: 5px;    
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+}
